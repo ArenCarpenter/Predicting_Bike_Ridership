@@ -22,6 +22,20 @@ The data was collected and some small cleaning was required, mainly for time ser
 
 ### Data Visualizations
 
+[](Images/Users by Year.png)
+
+[](Images/Users by Month.png)
+
+[](Images/Users by Day.png)
+
+[](Images/Ridership by Hour.png)
+
+[](Images/Feels Like Temp Dist.png)
+
+[](Images/Users by Weather Type.png)
+
+[](Images/Users by Holiday.png)
+
 ### Hypothesis Testing
 
 ## Conclusion and Next Steps
