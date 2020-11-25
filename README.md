@@ -22,17 +22,37 @@ The data was collected and some small cleaning was required, mainly for time ser
 
 ### Data Visualizations
 
+Let's start by looking at some aggregated ridership patterns. 
+
+#### Total users throughout the year
+
+We see rider data from both 2011 and 2012. As we expect, there are more riders in the late spring through early fall when the temperatures and weather are the most comfortable. Ridership begins to fall off in November through April. Overall ridership is higher in 2012 than in 2011 (INSERT STATS HERE), perhaps signaling greater adoption and market share of Capital bike in Washington, D.C.
+
 [](Images/Users by Year.png)
+
+#### Total users by month
+
+Just reinforcing the previous time series evaluation resampled by month, showing higher ridership in the spring and summer. However, grouping by rider population begins to show the differences between registered and casual cohorts that we will continue to explore below. Registered users account for a majority of the rides regardless of month.
 
 [](Images/Users by Month.png)
 
+#### Total users by day of the week
+
 [](Images/Users by Day.png)
+
+#### Rides by hour of the day
 
 [](Images/Ridership by Hour.png)
 
+#### "Feels like" temperature distribution
+
 [](Images/Feels Like Temp Dist.png)
 
+#### Ridership by weather type
+
 [](Images/Users by Weather Type.png)
+
+#### Ridership on holidays
 
 [](Images/Users by Holiday.png)
 
