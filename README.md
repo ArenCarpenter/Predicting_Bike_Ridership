@@ -28,39 +28,39 @@ Let's start by looking at some aggregated ridership patterns.
 
 We see rider data from both 2011 and 2012. As we expect, there are more riders in the late spring through early fall when the temperatures and weather are the most comfortable. Ridership begins to fall off in November through April. Overall ridership is higher in 2012 than in 2011 (INSERT STATS HERE), perhaps signaling greater adoption and market share of Capital bike in Washington, D.C.
 
-![](Images/Users by Year.png)
+![](Images/Users_by_Year.png) 
 
 #### Total users by month
 
 Just reinforcing the previous time series evaluation resampled by month, showing higher ridership in the spring and summer. However, grouping by rider population begins to show the differences between registered and casual cohorts that we will continue to explore below. Registered users account for a majority of the rides regardless of month.
 
-![](Images/Users by Month.png)
+![](Images/Users_by_Month.png)
 
 #### Total users by day of the week
 
 Here's our starkest difference between our two cohorts. Registered users ride mostly duing the work week for their commutes, while casual users ride mostly on the weekends. If you don't separate the two populations than ridership is almost perfectly equal across all days, thus showcasing how understanding customer segmentation in your data is very important.
 
-![](Images/Users by Day.png)
+![](Images/Users_by_Day.png)
 
 #### Rides by hour of the day
 
 Looking at ridership by hour in the day also illustrates the main cohort of registered users renting for their commutes as we see peaks around 8 am and 5-6 pm. 
 
-![](Images/Ridership by Hour.png)
+![](Images/Ridership_by_Hour.png)
 
 #### "Feels like" temperature distribution
 
 We'll use temperature for some feature engineering later, but looking at the "feels like" temperature we see a wide range of temperatures at which users have rented bikes, from about 0 degrees to 120 degrees. This accounts for humidity, windage, etc. 
 
-![](Images/Feels Like Temp Dist.png)
+![](Images/Feels_Like_Temp_Dist.png)
 
 #### Ridership by weather type
 
-![](Images/Users by Weather Type.png)
+![](Images/Users_by_Weather_Type.png)
 
 #### Ridership on holidays
 
-![](Images/Users by Holiday.png)
+![](Images/Users_by_Holiday.png)
 
 ### Hypothesis Testing
 
