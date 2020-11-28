@@ -50,18 +50,24 @@ Looking at ridership by hour in the day also illustrates the main cohort of regi
 
 #### "Feels like" temperature distribution
 
-We'll use temperature for some feature engineering later, but looking at the "feels like" temperature we see a wide range of temperatures at which users have rented bikes, from about 0 degrees to 120 degrees. This accounts for humidity, windage, etc. 
+We'll use temperature for some feature engineering later, but looking at the "feels like" temperature we see a wide range of temperatures at which users have rented bikes, from about 0 degrees to 120 degrees. This accounts for humidity, windage, etc. and is more extreme than raw temperatures, but provides a better sense of what the rider is actually experiencing. 
 
 ![](Images/Feels_Like_Temp_Dist.png)
 
 #### Ridership by weather type
 
+Regardless of the weather, registered users ride more than casual users. Within groups, there are more rides in good weather that declines as weather worsens. Interestingly, registered users still rent at relatively high rates during the worse weather (classified as "Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog"). 
+
 ![](Images/Users_by_Weather_Type.png)
 
 #### Ridership on holidays
 
+There are more rides by registered users not during holidays, likely just because more days are not holidays and the average American worker only gets about 10 holiday days off. Casual users, by contrast, are more likely to ride on holidays than normal days. 
+
 ![](Images/Users_by_Holiday.png)
 
 ### Hypothesis Testing
+
+#### Percentage of rides during rush hour?
 
 ## Conclusion and Next Steps
