@@ -68,6 +68,16 @@ There are more rides by registered users not during holidays, likely just becaus
 
 ### Hypothesis Testing
 
-#### Percentage of rides during rush hour?
+#### Do users ride more during comfortable temperatures?
+
+Both registered and casual ride more days if the temperature is comfortable (Registered: p-value = 7.693e-81, Casual: p-value = 2.49e-118). 
+
+#### Does Weather Type affect ridership of registered users?
+
+#### Are there more riders in 2011 or 2012?
+
+#### Percentage of rides that are rush hour commutes?
+
+#### Do more riders ride in the morning or evening?
 
 ## Conclusion and Next Steps
