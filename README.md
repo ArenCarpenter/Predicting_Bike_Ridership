@@ -26,7 +26,7 @@ Let's start by looking at some aggregated ridership patterns.
 
 #### Total users throughout the year
 
-We see rider data from both 2011 and 2012. As we expect, there are more riders in the late spring through early fall when the temperatures and weather are the most comfortable. Ridership begins to fall off in November through April. Overall ridership is higher in 2012 than in 2011 (INSERT STATS HERE), perhaps signaling greater adoption and market share of Capital bike in Washington, D.C.
+We see rider data from both 2011 and 2012. As we expect, there are more riders in the late spring through early fall when the temperatures and weather are the most comfortable. Ridership begins to fall off in November through April. Overall ridership is higher in 2012 than in 2011 (p-value = 7.21e-247), perhaps signaling greater adoption and market share of Capital bike in Washington, D.C.
 
 ![](Images/Users_by_Year.png) 
 
@@ -56,7 +56,7 @@ We'll use temperature for some feature engineering later, but looking at the "fe
 
 #### Ridership by weather type
 
-Regardless of the weather, registered users ride more than casual users. Within groups, there are more rides in good weather that declines as weather worsens. Interestingly, registered users still rent at relatively high rates during the worse weather (classified as "Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog"). 
+Regardless of the weather, registered users ride more than casual users. Within groups, there are more rides in good weather that declines as weather worsens. Interestingly, registered users still rent at relatively high rates during the worse weather (classified as "Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog"). Utilizing an ANOVA test on the different groups, we can reject our null hypothesis and conclude that there is a statistically significant difference among the groups (F-stat = 94.79, p-value = 7.48e-61).
 
 ![](Images/Users_by_Weather_Type.png)
 
@@ -70,7 +70,7 @@ There are more rides by registered users not during holidays, likely just becaus
 
 #### Do users ride more during comfortable temperatures?
 
-Both registered and casual ride more days if the temperature is comfortable (Registered: p-value = 7.693e-81, Casual: p-value = 2.49e-118). 
+Both registered and casual ride more days if the temperature is comfortable (Registered: p-value = 7.69e-81, Casual: p-value = 2.49e-118). 
 
 #### Does Weather Type affect ridership of registered users?
 
