@@ -72,6 +72,8 @@ There are more rides by registered users not during holidays, likely just becaus
 
 Both registered and casual ride more days if the temperature is comfortable (Registered: p-value = 7.69e-81, Casual: p-value = 2.49e-118). 
 
+![](Images/Comfortable_Temp.png)
+
 #### Does Weather Type affect ridership of registered users?
 
 #### Are there more riders in 2011 or 2012?
@@ -80,4 +82,6 @@ Both registered and casual ride more days if the temperature is comfortable (Reg
 
 #### Do more riders ride in the morning or evening?
 
-## Conclusion and Next Steps
+There is a statistically significant difference between the number of morning rides and evening rides (p-value = 1.04e-61). If registered riders are full-time bike commuters, why are morning and evening rides not more similar? Is there a pain point here about bike availability in residential areas compared to the business center, aka bikes are becoming clustered downtown as people bike in? We would really need some GIS data to identify where bikes are located at specific hours. 
+
+## Conclusion
