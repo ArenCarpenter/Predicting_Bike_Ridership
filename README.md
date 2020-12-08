@@ -1,5 +1,7 @@
 # Understanding Capital Bikeshare Ridership
 
+**Using Exploratory Data Analysis to Understand Customer Segmentation**
+
 Created by Aren Carpenter
 
 Fall 2020
@@ -66,15 +68,19 @@ There are more rides by registered users not during holidays, likely just becaus
 
 ![](Images/Users_by_Holiday.png)
 
-### Hypothesis Testing
+## Hypothesis Testing
 
 #### Do users ride more during comfortable temperatures?
 
-Both registered and casual ride more days if the temperature is comfortable (Registered: p-value = 7.69e-81, Casual: p-value = 2.49e-118). 
+First, what does it mean to be comfortable? Surveying some friends who are avid bikers, I chose 50 to 85 degrees Fahrenheit to be comfortable. Second, I split registered and casual riders, because registered riders may have less of an option if biking is their main commuter option. 
+
+Both registered and casual ride more days if the temperature is comfortable (Registered: p-value = 7.69e-81, Casual: p-value = 2.49e-118). There were, on average, only 25 casual riders an hour during uncomfortable temperatures. 
 
 ![](Images/Comfortable_Temp.png)
 
 #### Does Weather Type affect ridership of registered users?
+
+The F-stat (94) and p-value (7.4e-61) are both significant, thus we can reject our null hypothesis that ridership is equal among all weather types (RegisteredUsers<sub>Good</sub> = RegisteredUsers<sub>Okay</sub> = RegisteredUsers<sub>Poor</sub> = RegisteredUsers<sub>Bad</sub>). We can conclude that there is a statistically significant difference between the groups, but without further ad-hoc tests we cannot conclude which group(s) is different.
 
 #### Are there more riders in 2011 or 2012?
 
