@@ -1,6 +1,6 @@
 # Understanding Capital Bikeshare Ridership
 
-**Using Exploratory Data Analysis to Understand Customer Segmentation**
+## Using Exploratory Data Analysis to Understand Customer Segmentation
 
 Created by Aren Carpenter
 
@@ -83,6 +83,10 @@ Both registered and casual ride more days if the temperature is comfortable (Reg
 The F-stat (94) and p-value (7.4e-61) are both significant, thus we can reject our null hypothesis that ridership is equal among all weather types (RegisteredUsers<sub>Good</sub> = RegisteredUsers<sub>Okay</sub> = RegisteredUsers<sub>Poor</sub> = RegisteredUsers<sub>Bad</sub>). We can conclude that there is a statistically significant difference between the groups, but without further ad-hoc tests we cannot conclude which group(s) is different.
 
 #### Are there more riders in 2011 or 2012?
+
+After summing the total rides for each year, I used a t-test to compare the means of 2011 and 2012 mean hourly rides, and there was a statistical difference between the two means (F-stat = -34, p-value = 7.21e-247). This suggests that Capital bikeshares user base is growing or there is more conversion of casual to registered users who ride more frequently. 
+
+![](Images/Mean_Rides_2011_vs_2012.png)
 
 #### Percentage of rides that are rush hour commutes?
 
