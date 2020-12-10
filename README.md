@@ -90,6 +90,10 @@ After summing the total rides for each year, I used a t-test to compare the mean
 
 #### Percentage of rides that are rush hour commutes?
 
+Let's investigate what percentage of rides are likely to be commuters. After splitting on workweek vs weekend, I tried defining two different versions of rush hour, a two hour period morning and evening and a three hour period. The two hour period was defined as 7-8am and 5-6pm, and the three hour period was defined as 7-9am and 5-7pm. 
+
+Using our two hour definition, the commuter hour average rides per hour was over 400, 70% higher than non-commuter hours. Adding an hour to each morning and evening commuter window actually decreased this percentage to 67%, suggesting that there are fewer commuters in hour 9am and 7 pm.
+
 #### Do more riders ride in the morning or evening?
 
 There is a statistically significant difference between the number of morning rides and evening rides (p-value = 1.04e-61). If registered riders are full-time bike commuters, why are morning and evening rides not more similar? Is there a pain point here about bike availability in residential areas compared to the business center, aka bikes are becoming clustered downtown as people bike in? We would really need some GIS data to identify where bikes are located at specific hours. 
