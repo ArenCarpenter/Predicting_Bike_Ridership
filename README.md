@@ -99,3 +99,7 @@ Using our two hour definition, the commuter hour average rides per hour was over
 There is a statistically significant difference between the number of morning rides and evening rides (p-value = 1.04e-61). If registered riders are full-time bike commuters, why are morning and evening rides not more similar? Is there a pain point here about bike availability in residential areas compared to the business center, aka bikes are becoming clustered downtown as people bike in? We would really need some GIS data to identify where bikes are located at specific hours. 
 
 ## Conclusion
+
+This data shows notable differences between Capital Bikeshare's core customer segments, mainly registered (business) users and casual (leisure) users. These differences follow some expected patterns around registered users relying on bikesharing for their main commuting to work. Even with bad or poor weather (heavy rain, storms, and snow), registered users ride at only slightly worse rates compared to casual users who rarely ride in such conditions. 
+
+There is an interesting phenomenon at play in this data. If you look at registered and casual users in aggregate, Capital's metrics seem to be fairly stable across many categories, like riders by day of the week or riders on holidays, but this is hiding differences between the two groups. This was an excellent example of the importance of understanding your core customer segmentation and how to alleviate pain points of these core groups separately. 
